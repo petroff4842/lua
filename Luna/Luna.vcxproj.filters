@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="obje">
+      <UniqueIdentifier>{9cf8a022-be1f-4b07-96c1-db900442b575}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="luaobject.cpp">
+      <Filter>obje</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>obje</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="IFile.cpp" />
+    <ClCompile Include="Reader.cpp" />
+    <ClCompile Include="Writer.cpp" />
+    <ClCompile Include="Adapter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="luaobject.h">
+      <Filter>obje</Filter>
+    </ClInclude>
+    <ClInclude Include="luna.h">
+      <Filter>obje</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>obje</Filter>
+    </ClInclude>
+    <ClInclude Include="IFile.h" />
+    <ClInclude Include="Reader.h" />
+    <ClInclude Include="Writer.h" />
+    <ClInclude Include="Adapter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gameobject.lua" />
+    <None Include="account.lua" />
+    <None Include="App.lua" />
+    <None Include="Reader.lua" />
+    <None Include="Writer.lua" />
+  </ItemGroup>
+</Project>
